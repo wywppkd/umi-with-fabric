@@ -1,8 +1,9 @@
-/lambda/
-/scripts
 /config
-.history
 public
 dist
 .umi
+.umi-production
+.umi-test
 mock
+.eslintrc.js
+typings.d.ts
