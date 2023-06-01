@@ -29,13 +29,16 @@
     "@ant-design/pro-layout": "^5.0.12",
     "@umijs/preset-react": "1.x",
     "@umijs/test": "^3.2.27",
+    "antd": "^4.24.10",
     "lint-staged": "^10.0.7",
+    "lodash-es": "^4.17.21",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "umi": "^3.2.27",
     "yorkie": "^2.0.0"
   },
   "devDependencies": {
+    "@types/lodash-es": "^4.17.7",
     "@umijs/fabric": "^2.9.0"
   }
 }
