@@ -28,8 +28,9 @@ export default () => {
           console.log('🚀 ~ file: Index.tsx:20 ~ readyState:', readyState);
         }}
         poster={videoUrl + '?spm=qipa250&x-oss-process=video/snapshot,t_0,f_jpg,w_0,h_0,m_fast'}
-        src={videoUrl2}
       >
+        <source src={videoUrl2} type="video/webm" />
+        <source src={videoUrl} type="video/mp4" />
         推荐使用 Chrome 浏览器
       </video>
     </div>
