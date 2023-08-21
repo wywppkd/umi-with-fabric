@@ -43,5 +43,6 @@
     "@types/lodash-es": "^4.17.7",
     "@umijs/fabric": "^2.9.0",
     "gh-pages": "^6.0.0"
-  }
+  },
+  "homepage": "https://wywppkd.github.io/umi-with-fabric"
 }

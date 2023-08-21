@@ -6,4 +6,5 @@ export default defineConfig({
     type: 'none',
   },
   publicPath: process.env.NODE_ENV === 'production' ? `/${name}/` : '/',
+  base: process.env.NODE_ENV === 'production' ? `/${name}/` : '/',
 });
