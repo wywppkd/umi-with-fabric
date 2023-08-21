@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useEffect, useRef } from 'react';
 import styles from './index.less';
 import HelloWorld from '@/components/helloWorld';
 
@@ -8,13 +8,28 @@ const videoUrl =
 const videoUrl2 = 'https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.webm';
 export default () => {
   const refVideo = useRef<HTMLVideoElement>(null);
+
+  useEffect(() => {
+    setTimeout(() => {
+      refVideo.current?.load();
+      try {
+        const res = refVideo.current?.play();
+        console.log('🚀 ~ file: Index.tsx:16 ~ setTimeout ~ refVideo.current:', refVideo.current);
+        console.log('🚀 ~ file: Index.tsx:14 ~ useEffect ~ res:', res);
+      } catch (error) {
+        console.log('🚀 ~ file: Index.tsx:20 ~ setTimeout ~ error:', error);
+      }
+    }, 1000);
+  }, []);
+
   return (
     <div>
       <HelloWorld />
       <h1 className={styles.title}>Page index</h1>
       <video
+        ref={refVideo}
         muted
-        autoPlay
+        // autoPlay
         loop
         playsInline
         className={styles.video}
@@ -31,7 +46,7 @@ export default () => {
       >
         <source src={videoUrl2} type="video/webm" />
         <source src={videoUrl} type="video/mp4" />
-        推荐使用 Chrome 浏览器
+        推荐使用 Chrome 浏览器1
       </video>
     </div>
   );
