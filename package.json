@@ -14,7 +14,7 @@
     "postinstall": "umi generate tmp",
     "test": "umi-test",
     "test:coverage": "umi-test --coverage",
-    "predeploy": "yarn run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "gitHooks": {
