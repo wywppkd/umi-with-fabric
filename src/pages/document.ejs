@@ -9,6 +9,10 @@
     />
     <title></title>
     <link rel="icon" href="<%= context.config.publicPath +'favicon.ico'%>" type="image/x-icon" />
+    <script src="https://unpkg.com/eruda@3.0.1/eruda.js"></script>
+    <script>
+      eruda.init();
+    </script>
   </head>
   <body>
     <noscript>Out-of-the-box mid-stage front/design solution!</noscript>
@@ -20,11 +24,6 @@
           height: 100%;
           margin: 0;
           padding: 0;
-        }
-        #root {
-          background-image: url('<%= context.config.publicPath +"home_bg.png"%>');
-          background-repeat: no-repeat;
-          background-size: 100% auto;
         }
         .page-loading-warp {
           display: flex;
