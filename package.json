@@ -40,5 +40,8 @@
   "devDependencies": {
     "@types/lodash-es": "^4.17.7",
     "@umijs/fabric": "^2.9.0"
+  },
+  "volta": {
+    "node": "16.20.2"
   }
 }
