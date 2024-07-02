@@ -27,9 +27,11 @@
   },
   "dependencies": {
     "@ant-design/pro-layout": "^5.0.12",
+    "@onlyoffice/document-editor-react": "^1.5.1",
     "@umijs/preset-react": "1.x",
     "@umijs/test": "^3.2.27",
     "antd": "^4.24.10",
+    "js-base64": "^3.7.7",
     "lint-staged": "^10.0.7",
     "lodash-es": "^4.17.21",
     "react": "^16.12.0",

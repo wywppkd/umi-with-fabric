@@ -1503,6 +1503,13 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
+"@onlyoffice/document-editor-react@^1.5.1":
+  version "1.5.1"
+  resolved "https://registry.npmmirror.com/@onlyoffice/document-editor-react/-/document-editor-react-1.5.1.tgz#40a2be6eba3930b9b9af3410fe08f0098e901355"
+  integrity sha512-8IlirX5RTjzbHS/IQYCftr5MBUKzPvH0bGjvSlWn7/ZWjCvXDWcJRW+0HXFpgjVzT9fe37/G9kFR3MAzPAUymw==
+  dependencies:
+    lodash "4.17.21"
+
 "@qixian.cs/path-to-regexp@^6.1.0":
   version "6.1.0"
   resolved "https://registry.npmmirror.com/@qixian.cs/path-to-regexp/-/path-to-regexp-6.1.0.tgz#6b84ad01596332aba95fa29d2e70104698cd5c45"
@@ -6058,6 +6065,11 @@ jest@^26.6.3:
     import-local "^3.0.2"
     jest-cli "^26.6.3"
 
+js-base64@^3.7.7:
+  version "3.7.7"
+  resolved "https://registry.npmmirror.com/js-base64/-/js-base64-3.7.7.tgz#e51b84bf78fbf5702b9541e2cb7bfcb893b43e79"
+  integrity sha512-7rCnleh0z2CkXhH67J8K1Ytz0b2Y+yxTPL+/KOJoa20hfnVQ/3/T6W/KflYI4bRHRagNeXeU2bkNGI3v1oS/lw==
+
 "js-tokens@^3.0.0 || ^4.0.0", js-tokens@^4.0.0:
   version "4.0.0"
   resolved "https://registry.npmmirror.com/js-tokens/-/js-tokens-4.0.0.tgz#19203fb59991df98e3a287050d4647cdeaf32499"
@@ -6324,7 +6336,7 @@ lodash.zip@^4.2.0:
   resolved "https://registry.npmmirror.com/lodash.zip/-/lodash.zip-4.2.0.tgz#ec6662e4896408ed4ab6c542a3990b72cc080020"
   integrity sha512-C7IOaBBK/0gMORRBd8OETNx3kmOkgIWIPvyDpZSCTwUrpYmgZwJkjZeOD8ww4xbOUOs4/attY+pciKvadNfFbg==
 
-lodash@^4.17.15, lodash@^4.17.20, lodash@^4.17.21, lodash@^4.7.0:
+lodash@4.17.21, lodash@^4.17.15, lodash@^4.17.20, lodash@^4.17.21, lodash@^4.7.0:
   version "4.17.21"
   resolved "https://registry.npmmirror.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
   integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
