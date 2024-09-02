@@ -44,5 +44,8 @@
     "@umijs/fabric": "^2.9.0",
     "gh-pages": "^6.0.0"
   },
-  "homepage": "https://wywppkd.github.io/umi-with-fabric"
+  "homepage": "https://wywppkd.github.io/umi-with-fabric",
+  "volta": {
+    "node": "16.20.2"
+  }
 }
